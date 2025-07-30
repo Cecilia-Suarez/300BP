@@ -1,0 +1,36 @@
+# Build output
+dist/
+build/
+.vite/
+
+# Static files cache
+*.cache/
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.* # ignora .env.local, .env.production, etc.
+
+# macOS-specific files
+.DS_Store
+
+# Lock files (Prettier no necesita formatearlos)
+package-lock.json
+pnpm-lock.yaml
+
+# Ignore yarn.lock only if lo deseas no formatear con Prettier
+# yarn.lock
+
+# VSCode settings
+.vscode/
+
+# TypeScript build output (opcional)
+*.tsbuildinfo
